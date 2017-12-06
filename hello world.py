@@ -10,3 +10,5 @@ clf = clf.fit(features,labels)
 print clf.predict([[150,0]])
 #finnaly prediciting the label using the weight 150 and texture bumpy i.e 0
 #the predicted value comes to be 1 i.e orange
+print clf.predict([[450,1]])
+#again predicting and the predicted value comes to be 0 i.e apple
