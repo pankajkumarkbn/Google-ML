@@ -1,6 +1,6 @@
 from sklearn import tree
 features = [[[140,1], [130,1], [150,0], [170,0]]
-#below the first value denotes the weight of the fruit and second value denotes the texture i.e bumpy=0 or smooth=1.
+#here in this array the first value denotes the weight of the fruit and second value denotes the texture i.e bumpy=0 or smooth=1.
 labels = [0, 0, 1, 1]
 #Here label values denotes the type of fruit i.e 0=apple and 1=orange.clf = tree.DecisionTreeClassifier()
 clf = tree.DEcisionTreeClassifier()
